@@ -19,15 +19,14 @@ public class GameManager : MonoBehaviour
 
     public enum GameState
     {
-        GAME_READY = 0,
-        GAME_PLAY,
-        GAME_PUASE,
-        GAME_DIE,
-        GAME_CLEAR,
-        GAME_END,
-        GAME_CHANGE,
+        GAME_READY  = 0,
+        GAME_PLAY   = 1,
+        GAME_PUASE  = 2,
+        GAME_DIE    = 3,
+        GAME_CLEAR  = 4,
+        GAME_END    = 5,
+        GAME_CHANGE = 6,
     }
-
 
     public static GameManager m_instance;
 
@@ -43,7 +42,6 @@ public class GameManager : MonoBehaviour
     public int life = 3;
     public int score = 0;
     public int coin = 0;
-
     public int timeLimit= 300;
 
     private int comboKillScore = 100;
@@ -68,11 +66,7 @@ public class GameManager : MonoBehaviour
         if (this != instance)
             Destroy(gameObject);
 
-        score = PlayerPrefs.GetInt("score");
-        coin = PlayerPrefs.GetInt("coin");
-        life = PlayerPrefs.GetInt("life");
-
-        state = GameState.GAME_PLAY;
+        Initialize();
 
         UpdateCoin();
         UpdateLife();
@@ -104,6 +98,17 @@ public class GameManager : MonoBehaviour
             ClearTime();
         }
         
+    }
+
+    private void Initialize()
+    {
+        Application.targetFrameRate = 30;
+
+        score = PlayerPrefs.GetInt("score");
+        coin = PlayerPrefs.GetInt("coin");
+        life = PlayerPrefs.GetInt("life");
+
+        state = GameState.GAME_PLAY;
     }
 
     void InPutSystemKey()
