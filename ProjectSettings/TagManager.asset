@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Monster
+  - Ground
+  - Object
+  - Item
+  - Effect
+  - Clear
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Monster
+  - Item
+  - PlayerEffect
+  - Player
+  - Effect
+  - CameraArea
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: back
+    uniqueID: 3065718411
+    locked: 0
+  - name: middle
+    uniqueID: 3507015513
+    locked: 0
+  - name: forward
+    uniqueID: 57933271
+    locked: 0
+  - name: effect
+    uniqueID: 987136939
+    locked: 0
+  - name: ui
+    uniqueID: 2784443537
+    locked: 0

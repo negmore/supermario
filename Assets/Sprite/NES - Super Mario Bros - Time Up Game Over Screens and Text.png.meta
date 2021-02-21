@@ -1,0 +1,843 @@
+fileFormatVersion: 2
+guid: 9e884e20ee00c1d4eab20249d08fb089
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3908187779081528787
+    second: NES - Super Mario Bros - Time Up Game Over Screens and Text_0
+  - first:
+      213: -2610530566761860498
+    second: NES - Super Mario Bros - Time Up Game Over Screens and Text_1
+  - first:
+      213: -4164273389087952807
+    second: NES - Super Mario Bros - Time Up Game Over Screens and Text_2
+  - first:
+      213: 4657789944924426780
+    second: NES - Super Mario Bros - Time Up Game Over Screens and Text_3
+  - first:
+      213: -1434459778886007717
+    second: NES - Super Mario Bros - Time Up Game Over Screens and Text_4
+  - first:
+      213: 8455226964182113528
+    second: NES - Super Mario Bros - Time Up Game Over Screens and Text_5
+  - first:
+      213: -7577724928662136404
+    second: NES - Super Mario Bros - Time Up Game Over Screens and Text_6
+  - first:
+      213: -4341205300391473034
+    second: NES - Super Mario Bros - Time Up Game Over Screens and Text_7
+  - first:
+      213: 2297484289575951874
+    second: NES - Super Mario Bros - Time Up Game Over Screens and Text_8
+  - first:
+      213: 1051410334544742273
+    second: NES - Super Mario Bros - Time Up Game Over Screens and Text_9
+  - first:
+      213: 762698799917579885
+    second: NES - Super Mario Bros - Time Up Game Over Screens and Text_10
+  - first:
+      213: 8411279188747181913
+    second: NES - Super Mario Bros - Time Up Game Over Screens and Text_11
+  - first:
+      213: -1087542682225818343
+    second: NES - Super Mario Bros - Time Up Game Over Screens and Text_12
+  - first:
+      213: 7844273181733549888
+    second: NES - Super Mario Bros - Time Up Game Over Screens and Text_13
+  - first:
+      213: -7999538189551709444
+    second: NES - Super Mario Bros - Time Up Game Over Screens and Text_14
+  - first:
+      213: 5894775881355584677
+    second: NES - Super Mario Bros - Time Up Game Over Screens and Text_15
+  - first:
+      213: -3106887117927579097
+    second: NES - Super Mario Bros - Time Up Game Over Screens and Text_16
+  - first:
+      213: -533705609254682154
+    second: NES - Super Mario Bros - Time Up Game Over Screens and Text_17
+  - first:
+      213: -6437743857043805541
+    second: NES - Super Mario Bros - Time Up Game Over Screens and Text_18
+  - first:
+      213: 2298867568703430239
+    second: NES - Super Mario Bros - Time Up Game Over Screens and Text_19
+  - first:
+      213: -8305885735341860707
+    second: NES - Super Mario Bros - Time Up Game Over Screens and Text_20
+  - first:
+      213: 4952127113936461408
+    second: NES - Super Mario Bros - Time Up Game Over Screens and Text_21
+  - first:
+      213: -3957369648330473088
+    second: NES - Super Mario Bros - Time Up Game Over Screens and Text_22
+  - first:
+      213: 1813604668625434776
+    second: NES - Super Mario Bros - Time Up Game Over Screens and Text_23
+  - first:
+      213: -3810073942092368384
+    second: NES - Super Mario Bros - Time Up Game Over Screens and Text_24
+  - first:
+      213: -8822317536572768800
+    second: NES - Super Mario Bros - Time Up Game Over Screens and Text_25
+  - first:
+      213: 751114038513091744
+    second: NES - Super Mario Bros - Time Up Game Over Screens and Text_26
+  - first:
+      213: -2226844494097949929
+    second: NES - Super Mario Bros - Time Up Game Over Screens and Text_27
+  - first:
+      213: 645937518548115997
+    second: NES - Super Mario Bros - Time Up Game Over Screens and Text_28
+  - first:
+      213: 2963710236757486246
+    second: NES - Super Mario Bros - Time Up Game Over Screens and Text_29
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: NES - Super Mario Bros - Time Up Game Over Screens and Text_0
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 231
+        width: 255
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c79430a1a3f1894587e755045f62632
+      internalID: 3908187779081528787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Super Mario Bros - Time Up Game Over Screens and Text_1
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 259
+        width: 256
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18fa57e9ec03c0440adcfc743d3bd52e
+      internalID: -2610530566761860498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Super Mario Bros - Time Up Game Over Screens and Text_2
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 259
+        width: 256
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed2db139b3816674aa18f7f3bb9d67b5
+      internalID: -4164273389087952807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Super Mario Bros - Time Up Game Over Screens and Text_3
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 19
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc540bd0fd776774eb59cb4f6594d30f
+      internalID: 4657789944924426780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Super Mario Bros - Time Up Game Over Screens and Text_4
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 19
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfd8e6327e969a54bbf04dbb0e21de18
+      internalID: -1434459778886007717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Super Mario Bros - Time Up Game Over Screens and Text_5
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 19
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9dd8bb4d392bc64f94c175cf6aef0f9
+      internalID: 8455226964182113528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Super Mario Bros - Time Up Game Over Screens and Text_6
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 19
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 204e62c7e9551a447acc2ab1c0601506
+      internalID: -7577724928662136404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Super Mario Bros - Time Up Game Over Screens and Text_7
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 19
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d89ddb5a2b10ead47b72581f2bf3b05b
+      internalID: -4341205300391473034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Super Mario Bros - Time Up Game Over Screens and Text_8
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 19
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d17b77e123304c428ac468679d3172d
+      internalID: 2297484289575951874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Super Mario Bros - Time Up Game Over Screens and Text_9
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 19
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b544793f8a2d9c4a84a71613a028265
+      internalID: 1051410334544742273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Super Mario Bros - Time Up Game Over Screens and Text_10
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 19
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bc5bdafde622524fb6e59232e2d49a6
+      internalID: 762698799917579885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Super Mario Bros - Time Up Game Over Screens and Text_11
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 19
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b69a12e859209a4a84256411e38d51b
+      internalID: 8411279188747181913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Super Mario Bros - Time Up Game Over Screens and Text_12
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 19
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e333ea4ab504484fb4d897dad6df3c6
+      internalID: -1087542682225818343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Super Mario Bros - Time Up Game Over Screens and Text_13
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 19
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 645b2b97e62c6f344af8a6114045fbf1
+      internalID: 7844273181733549888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Super Mario Bros - Time Up Game Over Screens and Text_14
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 19
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd91df208a2230540a27e9409141a529
+      internalID: -7999538189551709444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Super Mario Bros - Time Up Game Over Screens and Text_15
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 11
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4230364844d849479d051cf326ee673
+      internalID: 5894775881355584677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Super Mario Bros - Time Up Game Over Screens and Text_16
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 11
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aae57454f6671d3498cb69855302218a
+      internalID: -3106887117927579097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Super Mario Bros - Time Up Game Over Screens and Text_17
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 11
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bc00cc19772fb14f84ff36d7ec732d5
+      internalID: -533705609254682154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Super Mario Bros - Time Up Game Over Screens and Text_18
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 11
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b91f538bc911ea24d839415711c9f8b1
+      internalID: -6437743857043805541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Super Mario Bros - Time Up Game Over Screens and Text_19
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 11
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bb44ce55ec46584db76965b0747c31c
+      internalID: 2298867568703430239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Super Mario Bros - Time Up Game Over Screens and Text_20
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 2
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ecb3e65391f412408f3e4f3d469a06a
+      internalID: -8305885735341860707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Super Mario Bros - Time Up Game Over Screens and Text_21
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 240
+        width: 39
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82a7132f6f6d9ad408b1e247d351c1dd
+      internalID: 4952127113936461408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Super Mario Bros - Time Up Game Over Screens and Text_22
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 231
+        width: 22
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26ffaab244719004db27b46f716ad163
+      internalID: -3957369648330473088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Super Mario Bros - Time Up Game Over Screens and Text_23
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 3
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1b0f619fcb1a8947976756555f3c48c
+      internalID: 1813604668625434776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Super Mario Bros - Time Up Game Over Screens and Text_24
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 19
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09550fa97507d9d4c94657a12c08af07
+      internalID: -3810073942092368384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Super Mario Bros - Time Up Game Over Screens and Text_25
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 11
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fc1683a379c64f47984000fed1da118
+      internalID: -8822317536572768800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Super Mario Bros - Time Up Game Over Screens and Text_26
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 11
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e48ea63d2c446d24cb06e7d9a907e8f0
+      internalID: 751114038513091744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Super Mario Bros - Time Up Game Over Screens and Text_27
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 11
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba5108346b99f5a4db485463d50dbf93
+      internalID: -2226844494097949929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Super Mario Bros - Time Up Game Over Screens and Text_28
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 3
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 602e12671ee44e64693c0d4297e7acd1
+      internalID: 645937518548115997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Super Mario Bros - Time Up Game Over Screens and Text_29
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 11
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11a79066103d9a348aea4d3aa6f38c5d
+      internalID: 2963710236757486246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 9fc05434efefe0c4eb629f5025ec4709
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
