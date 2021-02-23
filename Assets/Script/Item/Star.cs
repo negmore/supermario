@@ -27,7 +27,7 @@ public class Star : IItem
             rb = transform.GetComponent<Rigidbody2D>();
 
         movePos = new Vector3(transform.position.x, transform.position.y + 0.16f);
-        rb.simulated = (true == isSpwan) ? false : true;
+        rb.simulated = true;
     }
 
     void Update()
@@ -58,6 +58,8 @@ public class Star : IItem
     void SetSpwan()
     {
         isSpwan = true;
+        rb.simulated = false;
+
     }
     private void Animation()
     {
@@ -135,8 +137,13 @@ public class Star : IItem
 
     void SetUpdateStop(bool IsStop)
     {
-        if (rb.simulated != IsStop)
-            rb.simulated = IsStop;
+        if (false == IsStop)
+            rb.simulated = false;
+        else
+        {
+            if (false == isSpwan)
+                rb.simulated = true;
+        }
     }
 
     void BlockHitAction(float CenterPos)

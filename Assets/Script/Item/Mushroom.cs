@@ -19,7 +19,7 @@ public class Mushroom : IItem
         movePos.y += 0.16f;
 
         direction = 1f;
-        rb.simulated = !isSpwan;
+        rb.simulated = true;
 
         if (null == rb)
             rb = transform.GetComponent<Rigidbody2D>();
@@ -38,6 +38,7 @@ public class Mushroom : IItem
     void SetSpwan()
     {
         isSpwan = true;
+        rb.simulated = false;
     }
 
     protected void SpwanAction()
