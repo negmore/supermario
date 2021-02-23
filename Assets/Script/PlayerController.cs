@@ -95,7 +95,7 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
-        if (GameManager.instance.GetGameState() == GameManager.GameState.GAME_PLAY)
+        if (false == isDead && GameManager.GameState.GAME_PLAY == GameManager.instance.GetGameState())
         {
             KeyInput();
         }
@@ -274,13 +274,13 @@ public class PlayerController : MonoBehaviour
             if (dashUseTime < dashTime)
                 dashTime = dashUseTime;
 
-            mul = dashTime * Time.fixedDeltaTime * 12.5f;
+            mul = dashTime * Time.fixedDeltaTime * 13.5f;
         }
 
         if (GameManager.GameState.GAME_CLEAR == GameManager.instance.GetGameState())
             mul /= 2f;
 
-        animState[(int)state].SendMessage("SetDashSpeed", 1 + (mul * 1.5f));
+        animState[(int)state].SendMessage("SetDashSpeed", 1 + (mul * 2f));
 
         Velocity = Mathf.Lerp(Velocity, direction, (speed + mul) * Time.fixedDeltaTime);
 
@@ -324,6 +324,8 @@ public class PlayerController : MonoBehaviour
     public void Dead()
     {
         GameManager.instance.StartBgm(3);
+
+        renderer.sortingLayerName = "effect";
 
         isDeadAction = isDead = true;
         animState[(int)state].SendMessage("SetDeadAnimation");
@@ -387,7 +389,11 @@ public class PlayerController : MonoBehaviour
                     if (true == UnityEngine.Physics2D.GetIgnoreLayerCollision(LayerMask.NameToLayer("Player"), LayerMask.NameToLayer("Monster")))
                         return;
 
-                    DownState();
+                    float monsterPos = (collision.contacts[0].normal.x * collision.transform.GetComponent<BoxCollider2D>().size.x / 2f) + collision.transform.position.x;
+                    float playerColX = transform.GetComponent<BoxCollider2D>().size.x - 0.04f;
+
+                    if (transform.position.x - playerColX < monsterPos && monsterPos < transform.position.x + playerColX)
+                        DownState();
                 }
             }
         }
@@ -483,8 +489,10 @@ public class PlayerController : MonoBehaviour
             jumpHeight = 3.8f;
 
             animState[(int)state].SetActive(false);
+
             state = State.STATE_NORMAL;
             animState[(int)state].SetActive(true);
+            animState[(int)state].SendMessage("ModeInitialized");
 
             setInvTime = 3f;
             SetInvincibility(true);
@@ -535,15 +543,16 @@ public class PlayerController : MonoBehaviour
         playerBody.simulated = false;
         transform.GetComponent<BoxCollider2D>().isTrigger = true;
 
-        string state = animState[Prev].GetComponent<PlayAnimation>().GetAnimationState();
+        int state = animState[Prev].GetComponent<PlayAnimation>().GetAnimationState();
         int index = animState[Prev].GetComponent<PlayAnimation>().GetAnimationIndex();
+        int starIndex = animState[Prev].GetComponent<PlayAnimation>().GetStarModeInAnimationIndex();
 
         while (count < 4)
         {
             animState[Prev].SetActive(false);
             animState[Next].SetActive(true);
 
-            animState[Next].GetComponent<PlayAnimation>().SetChangedState(state, index);
+            animState[Next].GetComponent<PlayAnimation>().SetChangedState(state, index, starIndex);
 
             if (0 == Prev)
                 transform.position = new Vector3(transform.position.x, transform.position.y + 0.08f);
@@ -553,7 +562,7 @@ public class PlayerController : MonoBehaviour
             animState[Next].SetActive(false);
             animState[Prev].SetActive(true);
 
-            animState[Prev].GetComponent<PlayAnimation>().SetChangedState(state, index);
+            animState[Prev].GetComponent<PlayAnimation>().SetChangedState(state, index, starIndex);
 
             if (0 == Prev)
                 transform.position = new Vector3(transform.position.x, transform.position.y - 0.08f);
@@ -563,16 +572,20 @@ public class PlayerController : MonoBehaviour
             ++count;
         }
 
+
+        animState[Prev].SendMessage("ModeInitialized");
         animState[Prev].SetActive(false);
         animState[Next].SetActive(true);
 
-        animState[Next].GetComponent<PlayAnimation>().SetChangedState(state, index);
+        animState[Next].GetComponent<PlayAnimation>().SetChangedState(state, index, starIndex);
 
         playerBody.simulated = true;
         transform.GetComponent<BoxCollider2D>().isTrigger = false;
 
         GameManager.instance.SetGameState(GameManager.GameState.GAME_PLAY);
 
+        if (0f < starTime)
+            animState[Next].SendMessage("SetStartMode", starTime);
     }
 
     public void SetStarMode(bool StarMode)
@@ -586,7 +599,7 @@ public class PlayerController : MonoBehaviour
         {
             GameManager.instance.StartBgm(4);
             SoundPlay(2);
-            starTime = 12f;
+            starTime = 11f;
             animState[(int)state].SendMessage("SetStartMode", starTime);
         }
     }
@@ -774,7 +787,7 @@ public class PlayerController : MonoBehaviour
 
     void SetMoveAnimation()
     {
-        if (0f != direction)
+        if (0f != direction && false == isJump)
             animState[(int)state].SendMessage("SetWalkAnimation");
         else
         {

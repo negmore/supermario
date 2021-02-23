@@ -107,6 +107,7 @@ public class CoinBlock : MonoBehaviour
             else
             {
                 GameObject objItem = Instantiate(item, transform.position, Quaternion.identity);
+                objItem.SendMessage("SetSpwan");
             }
         }
     }

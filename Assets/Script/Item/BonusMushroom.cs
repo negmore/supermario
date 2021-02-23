@@ -23,6 +23,10 @@ public class BonusMushroom : Mushroom
             Move();
     }
 
+    void SetSpwan()
+    {
+        isSpwan = true;
+    }
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if ("Player" == collision.transform.tag)

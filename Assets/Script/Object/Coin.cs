@@ -53,4 +53,9 @@ public class Coin : IItem
     {
         renderer.enabled = IsPuase;
     }
+
+    void SetSpwan()
+    {
+
+    }
 }

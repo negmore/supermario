@@ -70,4 +70,9 @@ public class Flower : MonoBehaviour
     {
         gameObject.SetActive(!IsPuase);
     }
+
+    void SetSpwan()
+    {
+
+    }
 }

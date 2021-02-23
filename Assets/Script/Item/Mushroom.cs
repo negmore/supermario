@@ -11,12 +11,15 @@ public class Mushroom : IItem
     protected float direction = 0;
     public float speed = 3f;
 
-    protected bool isSpwan = true;
+    protected bool isSpwan = false;
 
     private void Awake()
     {
         movePos = transform.position;
         movePos.y += 0.16f;
+
+        direction = 1f;
+        rb.simulated = !isSpwan;
 
         if (null == rb)
             rb = transform.GetComponent<Rigidbody2D>();
@@ -30,6 +33,11 @@ public class Mushroom : IItem
             SpwanAction();
         else
             Move();
+    }
+
+    void SetSpwan()
+    {
+        isSpwan = true;
     }
 
     protected void SpwanAction()
@@ -50,8 +58,7 @@ public class Mushroom : IItem
 
     protected void Move()
     {
-        float moveX = direction * speed * Time.fixedDeltaTime;
-        transform.position += new Vector3(moveX * Time.fixedDeltaTime * speed, 0f);
+        transform.position += new Vector3(direction * speed * Time.deltaTime * 0.1f, 0f);
     }
 
     private void OnCollisionEnter2D(Collision2D collision)

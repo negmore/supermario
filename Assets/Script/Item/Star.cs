@@ -17,7 +17,7 @@ public class Star : IItem
     public float speed = 30f;
     public float aniSpeed = 2f;
 
-    private bool isSpwan = true;
+    private bool isSpwan = false;
 
     private Vector3 movePos;
 
@@ -33,7 +33,15 @@ public class Star : IItem
     void Update()
     {
         if (GameManager.GameState.GAME_PLAY != GameManager.instance.GetGameState())
+        {
+            SetUpdateStop(false);
+
             return;
+        }
+        else
+        {
+            SetUpdateStop(true);
+        }
 
         if (true == isSpwan)
         {
@@ -47,6 +55,10 @@ public class Star : IItem
         Animation();
     }
 
+    void SetSpwan()
+    {
+        isSpwan = true;
+    }
     private void Animation()
     {
         curTime += Time.fixedDeltaTime * aniSpeed;
@@ -119,6 +131,12 @@ public class Star : IItem
     {
         renderer.enabled = IsPuase;
         rb.simulated = !IsPuase;
+    }
+
+    void SetUpdateStop(bool IsStop)
+    {
+        if (rb.simulated != IsStop)
+            rb.simulated = IsStop;
     }
 
     void BlockHitAction(float CenterPos)

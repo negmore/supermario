@@ -102,8 +102,6 @@ public class GameManager : MonoBehaviour
 
     private void Initialize()
     {
-        Application.targetFrameRate = 30;
-
         score = PlayerPrefs.GetInt("score");
         coin = PlayerPrefs.GetInt("coin");
         life = PlayerPrefs.GetInt("life");
